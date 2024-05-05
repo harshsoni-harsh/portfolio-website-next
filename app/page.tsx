@@ -1,13 +1,11 @@
-import { getProjects } from "@/lib/getProjects";
-import About from "./about/page";
-import Projects from "./projects/page"
+import About from "./about";
+import Projects from "./projects"
 
 async function App() {
-  const ProjectsList = await getProjects();
   return (
     <>
       <About />
-      <Projects projectList={ProjectsList} />
+      <Projects />
     </>
   );
 }
