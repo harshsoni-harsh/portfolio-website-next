@@ -1,12 +1,10 @@
-import { fetchTechStack } from "@/lib/fetchTechStack";
 import Image from "next/image";
 import { GitHub, Linkedin, Twitter } from "react-feather";
 
 const About = async () => {
-  const techStack = await fetchTechStack();
   return (
     <>
-      <div className="flex sm:flex-row justify-between items-center flex-col text-center sm:text-left" id="about">
+      <div className="scroll-m-12 flex sm:flex-row justify-between items-center flex-col text-center sm:text-left" id="about">
         <div className="gap-2 pb-4 md:pr-4 max-sm:order-1 flex flex-col">
           <p className="text-md text-cyan-400 font-semibold max-sm:hidden">Hello, my name is </p>
           <p className="text-4xl font-bold opacity-95">
@@ -32,28 +30,25 @@ const About = async () => {
             </a>
           </div>
         </div>
-        <div className="max-sm:pb-4 ml-4 w-full sm:w-fit flex justify-center shrink-0">
+        <div className="max-sm:pb-4 sm:ml-4 w-full sm:w-fit flex justify-center shrink-0">
           <Image className="w-40 border-cyan-400 border-2 rounded-3xl h-40 shadow-lg" height={600} width={600} src="/images/harsh-headshot.jpeg" alt="profile-image" />
         </div>
       </div>
-      <div className="flex flex-col gap-4 mt-4">
-        <p className="text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
-          Tech Stack
+      <div className="flex flex-col gap-4 mt-4 items-center">
+        <p className="text-xl text-center">
+          Tools and technologies that I&apos;ve worked with
         </p>
-        <div className="space-x-4 flex justify-center pt-4 pb-4">
-          {
-            techStack?.map(obj => (
-              <Image
-                key={obj.id}
-                className="h-8 max-w-fit"
-                height={30}
-                width={100}
-                src={obj.imgSrc}
-                alt={obj.alt}
-              />
-            ))
-          }
-        </div>
+        <ul className="grid grid-cols-3 md:grid-cols-4 self-center max-w-fit gap-x-8 list-disc">
+          <li>Typescript</li>
+          <li>Next.JS </li>
+          <li>React.JS </li>
+          <li>Swagger</li>
+          <li>Node.JS</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+        </ul>
       </div>
     </>
   );

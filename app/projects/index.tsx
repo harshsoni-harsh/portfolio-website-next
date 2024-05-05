@@ -6,7 +6,7 @@ import { getProjects } from "@/lib/getProjects";
 const Projects = async () => {
   const projectList = await getProjects();
   return (
-    <div className="flex flex-col gap-6 mt-4" id="projects">
+    <div className="flex flex-col gap-6 mt-6 scroll-m-12" id="projects">
       <p className="text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
         Projects
       </p>
