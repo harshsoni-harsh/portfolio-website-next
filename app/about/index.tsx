@@ -23,7 +23,7 @@ const About = async () => {
                         and fixing bugs.
                     </p>
                     <button className="text-black my-2 bg-cyan-400 text-md px-3 py-2 w-fit max-sm:self-center rounded">
-                        <a href="https://drive.google.com/file/d/1g7hD6o1djnQpR9ZP9BQmaq7DoahYuOPo/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1NT4XtucpskFgCVwKbgePLJYc_uI7waMT/view?usp=sharing">
                             View my Resume
                         </a>
                     </button>

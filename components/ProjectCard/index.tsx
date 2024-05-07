@@ -16,7 +16,7 @@ export default function Card(props: project) {
         <div className="hover:scale-105 md:my-2 duration-300 overflow-hidden grid md:grid-cols-2 items-center justify-between gap-10 group">
             <div className="py-4">
                 <NextLink href={liveLink || repoLink}>
-                    <p className="text-xl">{title}</p>
+                    <p className="text-lg">{title}</p>
                     <p>{description}</p>
                 </NextLink>
                 <p className="flex gap-2 mt-4">
