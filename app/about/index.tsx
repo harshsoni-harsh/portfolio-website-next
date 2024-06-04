@@ -70,12 +70,14 @@ const About = async () => {
                     <ul className="max-sm:p-0 list-disc pl-4">
                         <li>Next</li>
                         <li>React</li>
+                        <li>TailwindCSS</li>
                         <li>Express</li>
                     </ul>
                 </div>
                 <div className="xl:order-1 hover:bg-cyan-900 p-4 rounded-lg border-transparent border-2 hover:border-cyan-400">
                     <p className="underline underline-offset-8 decoration-2 decoration-cyan-400 font-bold mb-2">Databases</p>
                     <ul className="max-sm:p-0 list-disc pl-4">
+                        <li>MongoDB</li>
                         <li>Sqlite</li>
                         <li>MySql</li>
                     </ul>
