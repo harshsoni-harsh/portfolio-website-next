@@ -2,134 +2,155 @@
     {
         "id": "19",
         "title": "Motor Insurance App",
+        "description": "An insurance web application built during my DBMS course project fulfills all the needs required in an insurance company to serve its customers.",
         "imgSrc": "/images/motor-insurance-app.png",
         "repoLink": "https://github.com/harshsoni-harsh/dbms-project",
-        "liveLink": "https://dbms-project-navy.vercel.app/"
+        "liveLink": "https://dbms-project-navy.vercel.app/",
+        "tools": ["Typescript", "NextJS", "Vercel", "MySql", "TailwindCSS"]
     },
     {
         "id": "18",
         "title": "Nxt Watch App",
+        "description": "Youtube clone (frontend)",
         "imgSrc": "/images/nxt-watch-app.png",
         "repoLink": "https://github.com/harshsoni-harsh/nxt-watch-app",
-        "liveLink": "https://nxt-watch-app-three.vercel.app/"
+        "liveLink": "https://nxt-watch-app-three.vercel.app/",
+        "tools": ["ReactJS", "CSS-in-JS"]
     },
     {
         "id": "17",
         "title": "User management API",
         "imgSrc": "",
         "repoLink": "https://github.com/harshsoni-harsh/user-management-backend",
-        "liveLink": ""
+        "liveLink": "",
+        "tools": ["Swagger", "NodeJS", "MongoDB"]
     },
     {
         "id": "16",
         "title": "Jobby app",
         "imgSrc": "/images/jobby-app-desktop.png",
         "repoLink": "https://github.com/harshsoni-harsh/jobby-app",
-        "liveLink": "https://jobby-app-weld.vercel.app/"
+        "liveLink": "https://jobby-app-weld.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "15",
-        "title": "Nxt Trendz Authentication System",
+        "title": "Nxt Trendz Application",
         "imgSrc": "/images/nxt-trendz-authentication-sm-outputs.png",
         "repoLink": "https://github.com/harshsoni-harsh/nxt-trendz-application",
-        "liveLink": "https://nxt-trendz-application.vercel.app/"
+        "liveLink": "https://nxt-trendz-application.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "14",
         "title": "Image Matching game",
         "imgSrc": "/images/match-game-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/match-game",
-        "liveLink": "https://match-game-omega.vercel.app/"
+        "liveLink": "https://match-game-omega.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "13",
         "title": "App store",
         "imgSrc": "/images/app-store-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/app-store",
-        "liveLink": "https://app-store-sage.vercel.app/"
+        "liveLink": "https://app-store-sage.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "12",
         "title": "Password Manager",
         "imgSrc": "/images/password-manager-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/password-manager",
-        "liveLink": "https://password-manager-pi-ebon.vercel.app/"
+        "liveLink": "https://password-manager-pi-ebon.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "11",
         "title": "Appointment App",
         "imgSrc": "/images/appointments-app-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/appointment-app",
-        "liveLink": "https://appointment-app-kohl.vercel.app/"
+        "liveLink": "https://appointment-app-kohl.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "10",
         "title": "Coin Toss Game",
         "imgSrc": "/images/coin-toss-game-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/coin-toss-game",
-        "liveLink": "https://coin-toss-game-rho.vercel.app/"
+        "liveLink": "https://coin-toss-game-rho.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "9",
         "title": "Comment App",
         "imgSrc": "/images/comments-app-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/comment-app",
-        "liveLink": "https://comments-app-lilac.vercel.app/"
+        "liveLink": "https://comments-app-lilac.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "8",
         "title": "Digital Timer App",
         "imgSrc": "/images/digital-timer-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/digital-timer-app",
-        "liveLink": "https://digital-timer-app-one.vercel.app/"
+        "liveLink": "https://digital-timer-app-one.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "7",
         "title": "Emoji game",
         "imgSrc": "/images/emoji-game-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/emoji-game",
-        "liveLink": "https://emoji-game-psi.vercel.app/"
+        "liveLink": "https://emoji-game-psi.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "6",
         "title": "Money Manager",
         "imgSrc": "/images/money-manager-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/money-manager",
-        "liveLink": "https://money-manager-snowy.vercel.app/"
+        "liveLink": "https://money-manager-snowy.vercel.app/",
+        "tools": ["ReactJS"]
     },
     {
         "id": "5",
         "title": "Twitter API Clone",
         "imgSrc": "",
         "repoLink": "https://github.com/harshsoni-harsh/twitter-api-clone/",
-        "liveLink": ""
+        "liveLink": "",
+        "tools": ["NodeJS"]
     },
     {
         "id": "4",
         "title": "Todo Application API",
         "imgSrc": "",
         "repoLink": "https://github.com/harshsoni-harsh/todo-application-api/",
-        "liveLink": ""
+        "liveLink": "",
+        "tools": ["NodeJS"]
     },
     {
         "id": "3",
         "title": "Covid-19 India Portal API",
         "imgSrc": "",
         "repoLink": "https://github.com/harshsoni-harsh/covid-19-india-portal-api/",
-        "liveLink": ""
+        "liveLink": "",
+        "tools": ["NodeJS"]
     },
     {
         "id": "2",
         "title": "Player Match Score API",
         "imgSrc": "",
         "repoLink": "https://github.com/harshsoni-harsh/player-match-score-api/",
-        "liveLink": ""
+        "liveLink": "",
+        "tools": ["NodeJS"]
     },
     {
         "id": "1",
         "title": "Sample Popular Blog Page",
         "imgSrc": "/images/popular-blog-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/sample-popular-blog-page",
-        "liveLink": "https://sample-popular-blog-page.vercel.app/"
+        "liveLink": "https://sample-popular-blog-page.vercel.app/",
+        "tools": ["HTML","CSS"]
     }
 ]

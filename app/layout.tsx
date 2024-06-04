@@ -16,12 +16,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className="scroll-smooth">
             <body className={inter.className}>
                 <div className="flex justify-center items-center min-h-screen p-6 bg-gray-800 max-md:p-0">
-                    <div className="relative pb-8 scroll-smooth h-fit max-w-screen-xl space-y-12 flex flex-col max-sm:px-8 sm:px-16 py-5 text-white bg-gray-800 shadow-2xl rounded-3xl max-md:rounded-none grow shadow-slate-950">
+                    <div className="relative pb-8 scroll-smooth h-fit max-w-screen-xl space-y-12 flex flex-col py-5 text-white bg-gray-800 shadow-2xl rounded-3xl max-md:rounded-none grow shadow-slate-950">
                         <Navbar />
-                        <div>{children}</div>
+                        <div className="max-sm:px-8 sm:px-16">{children}</div>
                     </div>
                 </div>
             </body>

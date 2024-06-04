@@ -53,6 +53,9 @@ const About = async () => {
                     />
                 </div>
             </div>
+            <p className="text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
+                Skillset
+            </p>
             <div className="grid xl:grid-cols-4 grid-cols-2 max-sm:grid-cols-1 max-sm:text-center [&>*]:max-sm:text-center [&>*>*]:max-sm:list-none gap-4 mt-4 w-fit self-center">
                 <div className="hover:bg-cyan-900 p-4 rounded-lg border-transparent border-2 hover:border-cyan-400">
                     <p className="underline underline-offset-8 decoration-2 decoration-cyan-400 font-bold mb-2">Programming Languages</p>

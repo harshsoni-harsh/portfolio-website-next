@@ -13,7 +13,7 @@ const Projects = () => {
             <p className="text-center text-2xl underline decoration-cyan-400 decoration-2 underline-offset-8">
                 Projects
             </p>
-            <div className="grid lg:grid-cols-2 justify-center flex-wrap gap-6">
+            <div className="grid lg:grid-cols-1 justify-center flex-wrap gap-6">
                 {projectList.slice(0, count).map((o: any) => (
                     <ProjectCard
                         key={o.title}
@@ -22,6 +22,7 @@ const Projects = () => {
                         description={o.description}
                         repoLink={o.repoLink}
                         liveLink={o.liveLink}
+                        tools={o.tools}
                     />
                 ))}
             </div>
