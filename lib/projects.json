@@ -50,67 +50,11 @@
         "tools": ["ReactJS"]
     },
     {
-        "id": "13",
-        "title": "App store",
-        "imgSrc": "/images/app-store-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/app-store",
-        "liveLink": "https://app-store-sage.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "12",
-        "title": "Password Manager",
-        "imgSrc": "/images/password-manager-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/password-manager",
-        "liveLink": "https://password-manager-pi-ebon.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "11",
-        "title": "Appointment App",
-        "imgSrc": "/images/appointments-app-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/appointment-app",
-        "liveLink": "https://appointment-app-kohl.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "10",
-        "title": "Coin Toss Game",
-        "imgSrc": "/images/coin-toss-game-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/coin-toss-game",
-        "liveLink": "https://coin-toss-game-rho.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "9",
-        "title": "Comment App",
-        "imgSrc": "/images/comments-app-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/comment-app",
-        "liveLink": "https://comments-app-lilac.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "8",
-        "title": "Digital Timer App",
-        "imgSrc": "/images/digital-timer-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/digital-timer-app",
-        "liveLink": "https://digital-timer-app-one.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
         "id": "7",
         "title": "Emoji game",
         "imgSrc": "/images/emoji-game-output.png",
         "repoLink": "https://github.com/harshsoni-harsh/emoji-game",
         "liveLink": "https://emoji-game-psi.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "6",
-        "title": "Money Manager",
-        "imgSrc": "/images/money-manager-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/money-manager",
-        "liveLink": "https://money-manager-snowy.vercel.app/",
         "tools": ["ReactJS"]
     },
     {
@@ -136,21 +80,5 @@
         "repoLink": "https://github.com/harshsoni-harsh/covid-19-india-portal-api/",
         "liveLink": "",
         "tools": ["NodeJS"]
-    },
-    {
-        "id": "2",
-        "title": "Player Match Score API",
-        "imgSrc": "",
-        "repoLink": "https://github.com/harshsoni-harsh/player-match-score-api/",
-        "liveLink": "",
-        "tools": ["NodeJS"]
-    },
-    {
-        "id": "1",
-        "title": "Sample Popular Blog Page",
-        "imgSrc": "/images/popular-blog-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/sample-popular-blog-page",
-        "liveLink": "https://sample-popular-blog-page.vercel.app/",
-        "tools": ["HTML","CSS"]
     }
 ]
