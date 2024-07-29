@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { GitHub, Linkedin, Twitter } from "react-feather";
 
 const About = async () => {
@@ -10,9 +11,9 @@ const About = async () => {
             >
                 <div className="gap-2 pb-4 md:pr-4 max-sm:order-1 flex flex-col">
                     <p className="text-md text-cyan-400 font-semibold max-sm:hidden">
-                        Hello, my name is{" "}
+                        Welcome to my portfolio
                     </p>
-                    <p className="text-4xl font-bold opacity-95">Harsh Soni</p>
+                    <p className="text-4xl font-bold opacity-95">Hi, I&apos;m Harsh Soni</p>
                     <p className="text-3xl font-semibold opacity-70">
                         I build things for the web
                     </p>
@@ -22,23 +23,23 @@ const About = async () => {
                         my B.Tech in CSE at IIIT Dharwad. I like building things
                         and fixing bugs.
                     </p>
-                    <button className="text-black my-2 bg-cyan-400 text-md px-3 py-2 w-fit max-sm:self-center rounded">
-                        <a href="/resume.pdf">
+                    <Link href="/resume.pdf">
+                        <button className="text-black my-2 bg-cyan-400 text-md px-3 py-2 w-fit max-sm:self-center rounded">
                             View my Resume
-                        </a>
-                    </button>
+                        </button>
+                    </Link>
                     <div className="gap-4 p-2 pb-4 text-2xl flex opacity-80 max-sm:self-center w-fit items-center">
                         <p className="text-base font-semibold">
                             Connect with Me
                         </p>
                         <hr className="w-6 border-[1.5px] border-cyan-400" />
-                        <a href="https://x.com/harshsoni_harsh">
+                        <a href="https://x.com/harshsoni_harsh" aria-label="Twitter">
                             <Twitter className="hover:text-cyan-400" />
                         </a>
-                        <a href="https://www.linkedin.com/in/harsh-soni-/">
+                        <a href="https://www.linkedin.com/in/harsh-soni-/" aria-label="Linkedin">
                             <Linkedin className="hover:text-cyan-400" />
                         </a>
-                        <a href="https://github.com/harshsoni-harsh">
+                        <a href="https://github.com/harshsoni-harsh" aria-label="Github">
                             <GitHub className="hover:text-cyan-400" />
                         </a>
                     </div>
@@ -67,12 +68,12 @@ const About = async () => {
                         <li>Python</li>
                     </ul>
                 </div>
-                
+
                 <div className="xl:order-2 hover:bg-cyan-900 p-4 rounded-lg border-transparent border-2 hover:border-cyan-400">
                     <p className="underline underline-offset-8 decoration-2 decoration-cyan-400 font-bold mb-2">Frameworks / Libraries</p>
                     <ul className="max-sm:p-0 list-disc pl-4">
-                        <li>Next</li>
-                        <li>React</li>
+                        <li>Next.JS</li>
+                        <li>React.JS</li>
                         <li>TailwindCSS</li>
                         <li>Express</li>
                     </ul>
@@ -86,8 +87,10 @@ const About = async () => {
                     </ul>
                 </div>
                 <div className="xl:order-3 hover:bg-cyan-900 p-4 rounded-lg border-transparent border-2 hover:border-cyan-400">
-                    <p className="underline underline-offset-8 decoration-2 decoration-cyan-400 font-bold mb-2">Tools</p>
+                    <p className="underline underline-offset-8 decoration-2 decoration-cyan-400 font-bold mb-2">Tools & Libraries</p>
                     <ul className="max-sm:p-0 list-disc pl-4">
+                        <li>GSAP</li>
+                        <li>Framer Motion</li>
                         <li>Swagger</li>
                         <li>Vercel</li>
                     </ul>
