@@ -1,5 +1,23 @@
 [
     {
+        "id": "21",
+        "title": "Hack2Future Website",
+        "description": "Developed the Hack2Future hackathon website, leading a team of 6 to build a responsive site using Next.js, GSAP, and Tailwind CSS, while ensuring seamless deployment on Vercel.",
+        "imgSrc": "/images/hack2future.png",
+        "repoLink": "https://github.com/Velocity-IIITDWD/hackathon-website",
+        "liveLink": "https://hack2future.tech/",
+        "tools": ["Next.js", "GSAP", "Tailwind CSS", "Vercel"]
+    },
+    {
+        "id": "20",
+        "title": "IIIT Dharwad Website",
+        "description": "Official IIIT Dharwad website",
+        "imgSrc": "/images/iiitdwd.png",
+        "repoLink": "https://github.com/velocity-iiitdwd/iiitdwd.ac.in/",
+        "liveLink": "https://iiitdwd.ac.in/",
+        "tools": ["Next.js", "Tailwind CSS", "Vercel"]
+    },
+    {
         "id": "19",
         "title": "Motor Insurance App",
         "description": "An insurance web application built during my DBMS course project fulfills all the needs required in an insurance company to serve its customers.",
@@ -24,61 +42,5 @@
         "repoLink": "https://github.com/harshsoni-harsh/user-management-backend",
         "liveLink": "",
         "tools": ["Swagger", "NodeJS", "MongoDB"]
-    },
-    {
-        "id": "16",
-        "title": "Jobby app",
-        "imgSrc": "/images/jobby-app-desktop.png",
-        "repoLink": "https://github.com/harshsoni-harsh/jobby-app",
-        "liveLink": "https://jobby-app-weld.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "15",
-        "title": "Nxt Trendz Application",
-        "imgSrc": "/images/nxt-trendz-authentication-sm-outputs.png",
-        "repoLink": "https://github.com/harshsoni-harsh/nxt-trendz-application",
-        "liveLink": "https://nxt-trendz-application.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "14",
-        "title": "Image Matching game",
-        "imgSrc": "/images/match-game-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/match-game",
-        "liveLink": "https://match-game-omega.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "7",
-        "title": "Emoji game",
-        "imgSrc": "/images/emoji-game-output.png",
-        "repoLink": "https://github.com/harshsoni-harsh/emoji-game",
-        "liveLink": "https://emoji-game-psi.vercel.app/",
-        "tools": ["ReactJS"]
-    },
-    {
-        "id": "5",
-        "title": "Twitter API Clone",
-        "imgSrc": "",
-        "repoLink": "https://github.com/harshsoni-harsh/twitter-api-clone/",
-        "liveLink": "",
-        "tools": ["NodeJS"]
-    },
-    {
-        "id": "4",
-        "title": "Todo Application API",
-        "imgSrc": "",
-        "repoLink": "https://github.com/harshsoni-harsh/todo-application-api/",
-        "liveLink": "",
-        "tools": ["NodeJS"]
-    },
-    {
-        "id": "3",
-        "title": "Covid-19 India Portal API",
-        "imgSrc": "",
-        "repoLink": "https://github.com/harshsoni-harsh/covid-19-india-portal-api/",
-        "liveLink": "",
-        "tools": ["NodeJS"]
     }
 ]
