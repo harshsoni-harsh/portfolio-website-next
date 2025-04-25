@@ -24,7 +24,7 @@ const About = async () => {
                         and fixing bugs.
                     </p>
                     <Link href="/resume.pdf">
-                        <button className="text-black my-2 bg-cyan-400 text-md px-3 py-2 w-fit max-sm:self-center rounded">
+                        <button className="relative text-black my-2 bg-cyan-400 text-md px-3 py-2 w-fit max-sm:self-center rounded-sm group">
                             View my Resume
                         </button>
                     </Link>
