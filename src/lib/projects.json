@@ -1,0 +1,46 @@
+[
+  {
+    "id": "21",
+    "title": "Hack2Future Website",
+    "description": "Developed the Hack2Future hackathon website, leading a team of 6 to build a responsive site using Next.js, GSAP, and Tailwind CSS, while ensuring seamless deployment on Vercel.",
+    "imgSrc": "/images/hack2future.png",
+    "repoLink": "https://github.com/Velocity-IIITDWD/hackathon-website",
+    "liveLink": "https://hack2future.tech/",
+    "tools": ["Next.js", "GSAP", "Tailwind CSS", "Vercel"]
+  },
+  {
+    "id": "20",
+    "title": "IIIT Dharwad Website",
+    "description": "Official IIIT Dharwad website",
+    "imgSrc": "/images/iiitdwd.png",
+    "repoLink": "https://github.com/velocity-iiitdwd/iiitdwd.ac.in/",
+    "liveLink": "https://iiitdwd.ac.in/",
+    "tools": ["Next.js", "Tailwind CSS", "Vercel"]
+  },
+  {
+    "id": "19",
+    "title": "Motor Insurance App",
+    "description": "An insurance web application built during my DBMS course project fulfills all the needs required in an insurance company to serve its customers.",
+    "imgSrc": "/images/motor-insurance-app.png",
+    "repoLink": "https://github.com/harshsoni-harsh/dbms-project",
+    "liveLink": "https://dbms-project-navy.vercel.app/",
+    "tools": ["Typescript", "NextJS", "Vercel", "MySql", "TailwindCSS"]
+  },
+  {
+    "id": "18",
+    "title": "Nxt Watch App",
+    "description": "Youtube clone (frontend)",
+    "imgSrc": "/images/nxt-watch-app.png",
+    "repoLink": "https://github.com/harshsoni-harsh/nxt-watch-app",
+    "liveLink": "https://nxt-watch-app-three.vercel.app/",
+    "tools": ["ReactJS", "CSS-in-JS"]
+  },
+  {
+    "id": "17",
+    "title": "User management API",
+    "imgSrc": "",
+    "repoLink": "https://github.com/harshsoni-harsh/user-management-backend",
+    "liveLink": "",
+    "tools": ["Swagger", "NodeJS", "MongoDB"]
+  }
+]
