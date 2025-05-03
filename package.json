@@ -11,6 +11,7 @@
     "typegen": "npx sanity typegen generate"
   },
   "dependencies": {
+    "@octokit/graphql": "^8.2.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.87.1",
     "next": "^15.3.1",
@@ -36,6 +37,10 @@
     "typescript": "^5.8.3"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@biomejs/biome", "sharp", "unrs-resolver"]
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "sharp",
+      "unrs-resolver"
+    ]
   }
 }

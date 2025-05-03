@@ -15,7 +15,6 @@ export default defineType({
       name: "description",
       title: "Description",
       type: "text",
-      validation: (Rule) => Rule.required().min(10),
     }),
     defineField({
       name: "image",
@@ -41,7 +40,6 @@ export default defineType({
       title: "Tools Used",
       type: "array",
       of: [{ type: "string" }],
-      validation: (Rule) => Rule.required(),
     }),
   ],
 });
