@@ -49,7 +49,7 @@ const Projects = async () => {
           const lastCommitDate = repository?.defaultBranchRef?.target?.history?.nodes[0]?.committedDate;
           project.liveLink = homepageUrl;
           project.description = description
-          project.tools = topics?.nodes.map(({topic}) => topic.name);
+          project.tools = topics?.nodes.map(({topic}: {topic: any}) => topic.name);
           project._updatedAt = lastCommitDate;
           return project;
         }
